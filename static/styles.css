@@ -1,0 +1,52 @@
+body{
+	color: #b76e79;
+	font-family: 'Lato', sans-serif;
+	margin-top: 5%;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+a:link{
+	color: lightblue;
+	text-decoration: none;
+}
+
+
+a:visited{
+	color: darkgrey;
+	text-decoration: none;
+}
+
+h1{
+	text-align: center;
+}
+
+#menu{
+	text-align: center;
+}
+
+
+div#blogHomepage {
+  column-count: 3;
+  margin-top: 50px;
+}
+
+div#programmingLang{
+	column-count: 3;
+	padding-bottom: 5%;
+}
+
+div#programmingLang ul li{
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+div#workDiv div{
+	column-count: 3;
+
+}
+
+div #display_pic{
+	display: block;
+	margin: 0 auto;
+}
