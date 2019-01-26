@@ -5,88 +5,156 @@
       <title>Jasmine Bayani's Portfolio</title>
       <meta name="description" content="Jasmine Bayani's Portfolio">
       <meta name="Jasmine" content="SitePoint">
-      <link rel="stylesheet" href="static/styles.css?v=1.0">
       <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-
+      <!--BOOTSTRAP-->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="static/stylesv2.css?v=1.0">
    </head>
-   <body>
-      <div> <img id= "display_pic" src="https://media.licdn.com/dms/image/C5603AQGwvaZFhIb04g/profile-displayphoto-shrink_200_200/0?e=1553731200&v=beta&t=aAsxxXftz3RSu7sNSTbLgzZz5VhJ9OlaXc7qgHScfHA"> </img></div>
-      <h1 a href="/resume">Jasmine Bayani</h1>
-      <div id="menu"> <a href ="/resume"> Home <a/> | <a href ="resume#skills"> Skills <a/>  | <a href ="resume#work"> Work Experience <a/> | <a href ="resume#education"> Education <a/>  | <a href ="/blog"> Blog <a/> </div>
-     
-      <h2 id="skills">Skills </h2>
-
-      <div id=#skillDiv>
-         <div id="programmingLang">
-            <ul>
-               <li>HTML5</li>
-               <li>CSS</li>
-               <li>JavaScript</li>
-               <li>Python</li>
-               <li>Java</li>
-               <li>C++</li>
-               <li>NodeJS</li>
-               <li>PHP</li>
-               <li>Wordpress</li>
-            </ul>
-            <ul>
-               <li>HTML5</li>
-               <li>CSS</li>
-               <li>JavaScript</li>
-               <li>Python</li>
-               <li>Java</li>
-               <li>C++</li>
-               <li>NodeJS</li>
-               <li>PHP</li>
-               <li>Wordpress</li>
-            </ul>
-            <ul>
-               <li>HTML5</li>
-               <li>CSS</li>
-               <li>JavaScript</li>
-               <li>Python</li>
-               <li>Java</li>
-               <li>C++</li>
-               <li>NodeJS</li>
-               <li>PHP</li>
-               <li>Wordpress</li>
-            </ul>
+   <body class = "container-fluid">
+      <div class="row" id="top">
+         <div id="menu" class="navbar navbar-default fixed-top">
+            <div class="container-fluid"><a href="/resumev2" class="menu-item">HOME</a> <a href="/resumev2#skillsDiv"  class="menu-item">SKILLS</a> <a href="/resumev2#workDiv"  class="menu-item">WORK</a> <a href="/resumev2#educationDiv"  class="menu-item">EDUCATION</a> <a href ="/blog">BLOG<a/> <a href=#top class="menu-item">^</a></div>
          </div>
-         <div>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis lorem eget massa blandit porta. Nunc at arcu ullamcorper, pretium arcu non, ultrices dolor. Aenean accumsan posuere massa vel placerat. Nunc eget metus at dolor molestie consectetur. Sed commodo ante erat, ut facilisis lectus accumsan vitae. Ut non turpis orci. Nunc vitae nunc vehicula enim dapibus fringilla. Vestibulum elementum vehicula lacus eu scelerisque. Cras sit amet finibus metus, a bibendum tellus. In lacus felis, tempor sit amet eleifend eget, cursus ac lectus. Proin non porttitor erat, eu posuere diam. Nunc sed mauris eget est tincidunt tincidunt sit amet ut arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            <br>
-            Nulla elit lectus, fermentum ut dictum ac, ornare suscipit enim. Nunc neque massa, finibus vitae sapien et, gravida pharetra erat. Curabitur pellentesque orci ac justo iaculis congue. Suspendisse et nisi suscipit, iaculis urna eget, condimentum quam. Vestibulum facilisis finibus dolor, id facilisis risus placerat vitae. Donec ligula nisi, accumsan sit amet gravida ut, tincidunt eget tellus. Cras hendrerit enim neque, sit amet feugiat neque lobortis luctus. Etiam at sagittis libero. Sed molestie euismod nisi at venenatis. Curabitur fringilla odio vitae eros volutpat, tempor fringilla sapien sagittis. Cras eu ante eu purus ultricies suscipit vitae nec nisi. Donec sodales tincidunt ipsum, et malesuada justo aliquam eu. Phasellus nec justo ut dolor lacinia convallis.
+         <div class="col-sm" id="left">
+            <div class="container">
+               <img id= "display_pic" src="https://media.licdn.com/dms/image/C5603AQGwvaZFhIb04g/profile-displayphoto-shrink_200_200/0?e=1553731200&v=beta&t=aAsxxXftz3RSu7sNSTbLgzZz5VhJ9OlaXc7qgHScfHA"> </img>
+               <h1 a href="/resumev2">Jasmine Bayani</h1>
+               <h5>e-mail: jassycodes@gmail.com</h5>
+            </div>
          </div>
-         <div>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis lorem eget massa blandit porta. Nunc at arcu ullamcorper, pretium arcu non, ultrices dolor. Aenean accumsan posuere massa vel placerat. Nunc eget metus at dolor molestie consectetur. Sed commodo ante erat, ut facilisis lectus accumsan vitae. Ut non turpis orci. Nunc vitae nunc vehicula enim dapibus fringilla. Vestibulum elementum vehicula lacus eu scelerisque. Cras sit amet finibus metus, a bibendum tellus. In lacus felis, tempor sit amet eleifend eget, cursus ac lectus. Proin non porttitor erat, eu posuere diam. Nunc sed mauris eget est tincidunt tincidunt sit amet ut arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            <br>
-            Nulla elit lectus, fermentum ut dictum ac, ornare suscipit enim. Nunc neque massa, finibus vitae sapien et, gravida pharetra erat. Curabitur pellentesque orci ac justo iaculis congue. Suspendisse et nisi suscipit, iaculis urna eget, condimentum quam. Vestibulum facilisis finibus dolor, id facilisis risus placerat vitae. Donec ligula nisi, accumsan sit amet gravida ut, tincidunt eget tellus. Cras hendrerit enim neque, sit amet feugiat neque lobortis luctus. Etiam at sagittis libero. Sed molestie euismod nisi at venenatis. Curabitur fringilla odio vitae eros volutpat, tempor fringilla sapien sagittis. Cras eu ante eu purus ultricies suscipit vitae nec nisi. Donec sodales tincidunt ipsum, et malesuada justo aliquam eu. Phasellus nec justo ut dolor lacinia convallis.
+         <!--col-sm-4 -->
+         <div class="col-sm" id="right">
+            <div>
+               <div id="skillsDiv" class="block">
+                  <h2 id="skills">Skills</h2>
+                  <ul class="unstyled_ul">
+                     <li>HTML5</li>
+                     <div class="progress">
+                        <div class="progress-bar progress-bar-success bg-info" role="progressbar" aria-valuenow="80"
+                           aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                           8 / 10
+                        </div>
+                     </div>
+                     <li>CSS</li>
+                     <div class="progress">
+                        <div class="progress-bar progress-bar-success bg-info" role="progressbar" aria-valuenow="80"
+                           aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                           8 / 10
+                        </div>
+                     </div>
+                     <li>JavaScript</li>
+                     <div class="progress">
+                        <div class="progress-bar progress-bar-success bg-info" role="progressbar" aria-valuenow="80"
+                           aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                           8 / 10
+                        </div>
+                     </div>
+                     <li>Python</li>
+                     <div class="progress">
+                        <div class="progress-bar progress-bar-success bg-info" role="progressbar" aria-valuenow="80"
+                           aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                           8 / 10
+                        </div>
+                     </div>
+                     <li>Java</li>
+                     <div class="progress">
+                        <div class="progress-bar progress-bar-success bg-info" role="progressbar" aria-valuenow="80"
+                           aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                           8 / 10
+                        </div>
+                     </div>
+                     <li>C++</li>
+                     <div class="progress">
+                        <div class="progress-bar progress-bar-success bg-info" role="progressbar" aria-valuenow="80"
+                           aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                           8 / 10
+                        </div>
+                     </div>
+                     <li>NodeJS</li>
+                     <div class="progress">
+                        <div class="progress-bar progress-bar-success bg-info" role="progressbar" aria-valuenow="80"
+                           aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                           8 / 10
+                        </div>
+                     </div>
+                     <li>PHP</li>
+                     <div class="progress">
+                        <div class="progress-bar progress-bar-success bg-info" role="progressbar" aria-valuenow="80"
+                           aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                           8 / 10
+                        </div>
+                     </div>
+                     <li>Wordpress</li>
+                     <div class="progress">
+                        <div class="progress-bar progress-bar-success bg-info" role="progressbar" aria-valuenow="80"
+                           aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                           8 / 10
+                        </div>
+                     </div>
+                  </ul>
+               </div>
+               <!--workDiv -->
+               <div id="workDiv" class="block">
+                  <h2 id="work">Work Experience</h2>
+                  <article>
+                     <h4>
+                     Digital Marketing Director</h3>
+                     <h5>Ballegro Music Player App</h5>
+                     <h6>Vancouver, BC -- <i>December 2018 - Present</i></h6>
+                     <p>
+                     <ul>
+                        <li> Managing presence and growth through digital landscape including websites, Search Engine Optimization (SEO), social media, advertising and promotions </li>
+                        <li>Strategizing and executing marketing plans and campaigns to generate growth throughout the app sales </li>
+                        <li>Analyze digital marketing metrics and key performance indicators (KPI), generating reports using Google Analytics and other digital marketing tools and recommend solutions to increase KPI</li>
+                        <li>Directly communicates with the CEO by collaborative brainstorming and presenting regular reports/updates</li>
+                        <li>Work with UX/UI team to manage user experience (UX) of the app across platforms and assisting with problem resolution</li>
+                        <li>Managing social media channels to maintain and grow engagement as well as awareness of the company brand</li>
+                        <li>Managing digital marketing contents for emails, social media, blogs, websites and other avenues </li>
+                        <li>Competitor / market / influencer analysis </li>
+                     </ul>
+                     </p>
+                  </article>
+                  <article>
+                     <h4>
+                     Vice President of Marketing</h3>
+                     <h5>Legacy Advantage CPA Ltd. Acquired by Deloitte</h5>
+                     <h6>Vancouver, BC   -- <i>December 2018 - Present</i></h6>
+                     <p>
+                     <ul>
+                        <li> Managing presence and growth through digital landscape including websites, Search Engine Optimization (SEO), social media, advertising and promotions </li>
+                        <li>Strategizing and executing marketing plans and campaigns to generate growth throughout the app sales </li>
+                        <li>Analyze digital marketing metrics and key performance indicators (KPI), generating reports using Google Analytics and other digital marketing tools and recommend solutions to increase KPI</li>
+                        <li>Directly communicates with the CEO by collaborative brainstorming and presenting regular reports/updates</li>
+                        <li>Work with UX/UI team to manage user experience (UX) of the app across platforms and assisting with problem resolution</li>
+                        <li>Managing social media channels to maintain and grow engagement as well as awareness of the company brand</li>
+                        <li>Managing digital marketing contents for emails, social media, blogs, websites and other avenues </li>
+                        <li>Competitor / market / influencer analysis </li>
+                     </ul>
+                     </p>
+                  </article>
+               </div>
+               <!--workDiv -->
+               <div id="educationDiv" class="block">
+                  <h2 id="education">Education</h2>
+                  <article>
+                     <h4>University of British Columbia</h4>
+                     <h6>Bachelor of Arts - Ba, Cognitive Systems and Computer Science</h6>
+                     <p>2017 - 2020</p>
+                  </article>
+                  <article>
+                     <h4>Langara College</h4>
+                     <h6>Diploma in Computer Science & Business</h6>
+                     <p>2014 - 2017</p>
+                  </article>
+               </div>
+            </div>
          </div>
+         <!--col-sm-8 -->
       </div>
-      <h2 id="work" >Work Experience</h2>
-      <div id=#workDiv>
-         <div>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis lorem eget massa blandit porta. Nunc at arcu ullamcorper, pretium arcu non, ultrices dolor. Aenean accumsan posuere massa vel placerat. Nunc eget metus at dolor molestie consectetur. Sed commodo ante erat, ut facilisis lectus accumsan vitae. Ut non turpis orci. Nunc vitae nunc vehicula enim dapibus fringilla. Vestibulum elementum vehicula lacus eu scelerisque. Cras sit amet finibus metus, a bibendum tellus. In lacus felis, tempor sit amet eleifend eget, cursus ac lectus. Proin non porttitor erat, eu posuere diam. Nunc sed mauris eget est tincidunt tincidunt sit amet ut arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            <br>
-            Nulla elit lectus, fermentum ut dictum ac, ornare suscipit enim. Nunc neque massa, finibus vitae sapien et, gravida pharetra erat. Curabitur pellentesque orci ac justo iaculis congue. Suspendisse et nisi suscipit, iaculis urna eget, condimentum quam. Vestibulum facilisis finibus dolor, id facilisis risus placerat vitae. Donec ligula nisi, accumsan sit amet gravida ut, tincidunt eget tellus. Cras hendrerit enim neque, sit amet feugiat neque lobortis luctus. Etiam at sagittis libero. Sed molestie euismod nisi at venenatis. Curabitur fringilla odio vitae eros volutpat, tempor fringilla sapien sagittis. Cras eu ante eu purus ultricies suscipit vitae nec nisi. Donec sodales tincidunt ipsum, et malesuada justo aliquam eu. Phasellus nec justo ut dolor lacinia convallis.
-         </div>
-         <div>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis lorem eget massa blandit porta. Nunc at arcu ullamcorper, pretium arcu non, ultrices dolor. Aenean accumsan posuere massa vel placerat. Nunc eget metus at dolor molestie consectetur. Sed commodo ante erat, ut facilisis lectus accumsan vitae. Ut non turpis orci. Nunc vitae nunc vehicula enim dapibus fringilla. Vestibulum elementum vehicula lacus eu scelerisque. Cras sit amet finibus metus, a bibendum tellus. In lacus felis, tempor sit amet eleifend eget, cursus ac lectus. Proin non porttitor erat, eu posuere diam. Nunc sed mauris eget est tincidunt tincidunt sit amet ut arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            <br>
-            Nulla elit lectus, fermentum ut dictum ac, ornare suscipit enim. Nunc neque massa, finibus vitae sapien et, gravida pharetra erat. Curabitur pellentesque orci ac justo iaculis congue. Suspendisse et nisi suscipit, iaculis urna eget, condimentum quam. Vestibulum facilisis finibus dolor, id facilisis risus placerat vitae. Donec ligula nisi, accumsan sit amet gravida ut, tincidunt eget tellus. Cras hendrerit enim neque, sit amet feugiat neque lobortis luctus. Etiam at sagittis libero. Sed molestie euismod nisi at venenatis. Curabitur fringilla odio vitae eros volutpat, tempor fringilla sapien sagittis. Cras eu ante eu purus ultricies suscipit vitae nec nisi. Donec sodales tincidunt ipsum, et malesuada justo aliquam eu. Phasellus nec justo ut dolor lacinia convallis.
-         </div>
-      </div>
-
-      <h2 id="education">Education</h2>
-      <div>
-         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis lorem eget massa blandit porta. Nunc at arcu ullamcorper, pretium arcu non, ultrices dolor. Aenean accumsan posuere massa vel placerat. Nunc eget metus at dolor molestie consectetur. Sed commodo ante erat, ut facilisis lectus accumsan vitae. Ut non turpis orci. Nunc vitae nunc vehicula enim dapibus fringilla. Vestibulum elementum vehicula lacus eu scelerisque. Cras sit amet finibus metus, a bibendum tellus. In lacus felis, tempor sit amet eleifend eget, cursus ac lectus. Proin non porttitor erat, eu posuere diam. Nunc sed mauris eget est tincidunt tincidunt sit amet ut arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-         <br>
-         Nulla elit lectus, fermentum ut dictum ac, ornare suscipit enim. Nunc neque massa, finibus vitae sapien et, gravida pharetra erat. Curabitur pellentesque orci ac justo iaculis congue. Suspendisse et nisi suscipit, iaculis urna eget, condimentum quam. Vestibulum facilisis finibus dolor, id facilisis risus placerat vitae. Donec ligula nisi, accumsan sit amet gravida ut, tincidunt eget tellus. Cras hendrerit enim neque, sit amet feugiat neque lobortis luctus. Etiam at sagittis libero. Sed molestie euismod nisi at venenatis. Curabitur fringilla odio vitae eros volutpat, tempor fringilla sapien sagittis. Cras eu ante eu purus ultricies suscipit vitae nec nisi. Donec sodales tincidunt ipsum, et malesuada justo aliquam eu. Phasellus nec justo ut dolor lacinia convallis.
-      </div>
-      <div>
-         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis lorem eget massa blandit porta. Nunc at arcu ullamcorper, pretium arcu non, ultrices dolor. Aenean accumsan posuere massa vel placerat. Nunc eget metus at dolor molestie consectetur. Sed commodo ante erat, ut facilisis lectus accumsan vitae. Ut non turpis orci. Nunc vitae nunc vehicula enim dapibus fringilla. Vestibulum elementum vehicula lacus eu scelerisque. Cras sit amet finibus metus, a bibendum tellus. In lacus felis, tempor sit amet eleifend eget, cursus ac lectus. Proin non porttitor erat, eu posuere diam. Nunc sed mauris eget est tincidunt tincidunt sit amet ut arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-         <br>
-         Nulla elit lectus, fermentum ut dictum ac, ornare suscipit enim. Nunc neque massa, finibus vitae sapien et, gravida pharetra erat. Curabitur pellentesque orci ac justo iaculis congue. Suspendisse et nisi suscipit, iaculis urna eget, condimentum quam. Vestibulum facilisis finibus dolor, id facilisis risus placerat vitae. Donec ligula nisi, accumsan sit amet gravida ut, tincidunt eget tellus. Cras hendrerit enim neque, sit amet feugiat neque lobortis luctus. Etiam at sagittis libero. Sed molestie euismod nisi at venenatis. Curabitur fringilla odio vitae eros volutpat, tempor fringilla sapien sagittis. Cras eu ante eu purus ultricies suscipit vitae nec nisi. Donec sodales tincidunt ipsum, et malesuada justo aliquam eu. Phasellus nec justo ut dolor lacinia convallis.
-      </div>
+      <!--row -->
    </body>
+   <!--container -->
 </html>

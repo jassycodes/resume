@@ -1,0 +1,60 @@
+body, html {
+	color: #b76e79;
+	font-family: 'Lato', sans-serif;
+	height: 100%;
+}
+
+a{
+	font-style: bold !important;
+}
+
+a:link{
+	color: lightblue;
+	text-decoration: none;
+	font-style: bold !important;
+}
+
+a:visited{
+	color: #474545;
+	text-decoration: none;
+	font-style: bold !important;
+}
+
+h1{
+	text-align: center;
+}
+
+div #display_pic{
+	display: block;
+	margin: 0 auto;
+}
+
+#menu {
+	text-align: center;
+}
+
+#left {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 25%;
+	height: 100%;
+	background-color: lightpink;
+}
+
+#right {
+	padding: 10%;
+	height: 100%;
+	margin-left: 20%;
+}
+
+.col-lg-4{
+	background-color: pink;
+}
+.col-lg-8{
+	background-color: lightblue;
+}
+
+.block{
+	padding-bottom: 5%;
+}
